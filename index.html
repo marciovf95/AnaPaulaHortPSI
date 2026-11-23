@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ana Paula Hort | Avaliação Psicológica (WISC, WAIS) e Psicanálise — Londrina/PR e Online</title>
+  <meta name="description" content="Ana Paula Hort Candido (CRP 08/44722) — Psicóloga e Psicanalista. Avaliação Psicológica (WISC, WAIS, BPA, FDT) e Psicoterapia para adolescentes e adultos. Presencial em Londrina/PR e online para Brasil e exterior." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Ana Paula Hort | Psicóloga & Psicanalista — Londrina/PR e Online" />
+  <meta property="og:description" content="Avaliação Psicológica (WISC, WAIS, BPA, FDT) e Psicoterapia para adolescentes e adultos. Presencial em Londrina/PR e online (Brasil e exterior com pagamento via Wise)." />
+  <meta property="og:type" content="website" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Psychologist",
+    "name": "Ana Paula Hort Candido — Psicóloga & Psicanalista",
+    "description": "Avaliação Psicológica (WISC, WAIS, BPA, FDT) e Psicoterapia de orientação psicanalítica para adolescentes e adultos. Atendimento presencial em Londrina/PR e online para Brasil e exterior.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Londrina",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    },
+    "sameAs": [
+      "https://www.instagram.com/anapaulahort.psi/"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #f6f9fc;
+      --surface: #ffffff;
+      --surface-soft: #eaf2fa;
+      --surface-tint: #dbe8f6;
+      --text: #1e293b;
+      --muted: #526277;
+      --accent: #3b74a8;
+      --accent-dark: #285680;
+      --accent-soft: #e1effb;
+      --gold: #7aaee0;
+      --border: #d7e4f2;
+      --shadow-sm: 0 4px 16px rgba(30, 41, 59, 0.05);
+      --shadow-md: 0 14px 36px rgba(30, 41, 59, 0.08);
+      --radius: 18px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      line-height: 1.15;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    a { color: inherit; text-decoration: none; }
+    button { font-family: inherit; }
+
+    .container {
+      width: 100%;
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 22px;
+    }
+
+    /* Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      background: rgba(246, 249, 252, 0.88);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .scroll-progress {
+      position: absolute;
+      left: 0;
+      bottom: -1px;
+      height: 2px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--accent), var(--gold));
+      transition: width 0.08s linear;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      gap: 16px;
+    }
+
+    .brand strong {
+      display: block;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .brand span {
+      display: block;
+      font-size: 0.76rem;
+      color: var(--muted);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--muted);
+    }
+
+    .nav-links a { transition: color 0.18s ease; }
+    .nav-links a:hover { color: var(--accent); }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 13px 24px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.92rem;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 8px 20px rgba(59, 116, 168, 0.22);
+    }
+
+    .btn-primary:hover { background: var(--accent-dark); }
+
+    .btn-outline {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    .btn-outline:hover { background: var(--surface-soft); }
+
+    /* Hero */
+    .hero {
+      position: relative;
+      padding: 72px 0 64px;
+      background:
+        radial-gradient(circle at 85% 15%, rgba(122, 174, 224, 0.16), transparent 45%),
+        radial-gradient(circle at 10% 80%, rgba(59, 116, 168, 0.08), transparent 42%);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.95fr;
+      gap: 44px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-soft);
+      color: var(--accent-dark);
+      padding: 7px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-bottom: 18px;
+    }
+
+    .pill-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .hero h1 {
+      font-size: clamp(2.25rem, 4.3vw, 3.4rem);
+      margin-bottom: 18px;
+      color: var(--text);
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--accent);
+    }
+
+    .hero-lead {
+      font-size: 1.04rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+      max-width: 56ch;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .trust-item strong { color: var(--text); }
+
+    /* Interactive Hero Triage Card */
+    .triage-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      box-shadow: var(--shadow-md);
+      transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .triage-card.highlight {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 4px rgba(122, 174, 224, 0.35), var(--shadow-md);
+      transform: scale(1.015);
+    }
+
+    .triage-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .triage-head h3 { font-size: 1.5rem; }
+
+    .triage-tag {
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--accent-dark);
+      background: var(--accent-soft);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .triage-group { margin-bottom: 16px; }
+
+    .triage-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .chip-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .chip {
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.16s ease;
+    }
+
+    .chip:hover { border-color: var(--accent); }
+
+    .chip.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .triage-preview {
+      background: var(--surface-soft);
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 0.84rem;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+
+    .triage-preview strong { color: var(--text); }
+
+    /* Sections */
+    section { padding: 68px 0; }
+
+    .section-soft {
+      background: var(--surface-soft);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-head {
+      max-width: 68ch;
+      margin-bottom: 34px;
+    }
+
+    .eyebrow {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .section-head h2 {
+      font-size: clamp(1.9rem, 3.2vw, 2.55rem);
+      margin-bottom: 10px;
+    }
+
+    .section-head p { color: var(--muted); }
+
+    /* Interactive Service Switcher (Elastic Pill) */
+    .switcher {
+      position: relative;
+      display: inline-flex;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px;
+      margin-bottom: 28px;
+      gap: 4px;
+      flex-wrap: wrap;
+    }
+
+    .switch-pill {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      height: calc(100% - 10px);
+      border-radius: 999px;
+      background: var(--accent);
+      transition: transform 0.32s cubic-bezier(0.34, 1.4, 0.64, 1), width 0.28s ease;
+      z-index: 0;
+    }
+
+    .switch-btn {
+      position: relative;
+      z-index: 1;
+      padding: 10px 20px;
+      border-radius: 999px;
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: color 0.2s ease;
+    }
+
+    .switch-btn.active {
+      color: #fff;
+    }
+
+    .panel { display: none; animation: fadeIn 0.25s ease; }
+    .panel.active { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Interactive Tests Explorer */
+    .tests-layout {
+      display: grid;
+      grid-template-columns: 0.95fr 1.25fr;
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .test-tabs {
+      display: grid;
+      gap: 10px;
+    }
+
+    .test-tab {
+      text-align: left;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 18px;
+      cursor: pointer;
+      transition: all 0.18s ease;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .test-tab:hover { border-color: var(--accent); }
+
+    .test-tab.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .test-tab strong {
+      display: block;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .test-tab span {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .test-detail {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .test-detail h3 { font-size: 1.85rem; margin-bottom: 8px; }
+    .test-detail p { color: var(--muted); }
+
+    .test-meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .meta-box {
+      background: var(--bg);
+      padding: 12px 14px;
+      border-radius: 12px;
+    }
+
+    .meta-box small {
+      display: block;
+      font-size: 0.74rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .meta-box strong { font-size: 0.92rem; }
+
+    /* Cards & Steps */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      position: relative;
+      overflow: hidden;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px;
+      box-shadow: var(--shadow-sm);
+      transition: transform 0.22s ease, border-color 0.22s ease;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 50%), rgba(122, 174, 224, 0.14), transparent 65%);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      pointer-events: none;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(59, 116, 168, 0.42);
+    }
+
+    .card:hover::before { opacity: 1; }
+    .card h3 { font-size: 1.38rem; margin-bottom: 8px; }
+    .card p { color: var(--muted); font-size: 0.94rem; }
+
+    .steps {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 30px;
+    }
+
+    .step {
+      position: relative;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px;
+      transition: transform 0.25s ease, border-color 0.25s ease;
+    }
+
+    .step:hover {
+      transform: translateY(-2px);
+      border-color: rgba(59, 116, 168, 0.4);
+    }
+
+    .step-num {
+      display: inline-flex;
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--surface-soft);
+      color: var(--accent-dark);
+      border: 1px solid var(--border);
+      font-size: 0.84rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      transition: background 0.45s ease, color 0.45s ease, transform 0.45s ease;
+    }
+
+    .steps.in-view .step-num {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .steps.in-view .step:nth-child(2) .step-num { transition-delay: 0.12s; }
+    .steps.in-view .step:nth-child(3) .step-num { transition-delay: 0.24s; }
+    .steps.in-view .step:nth-child(4) .step-num { transition-delay: 0.36s; }
+
+    .step h3 { font-size: 1.25rem; margin-bottom: 6px; }
+    .step p { font-size: 0.9rem; color: var(--muted); }
+
+    /* FAQ */
+    .faq-list {
+      display: grid;
+      gap: 12px;
+      max-width: 820px;
+    }
+
+    details {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 22px;
+      transition: border-color 0.18s ease;
+    }
+
+    details[open] { border-color: var(--accent); }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.97rem;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 14px;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    .faq-icon {
+      font-size: 1.2rem;
+      color: var(--accent);
+      transition: transform 0.2s ease;
+      flex-shrink: 0;
+    }
+
+    details[open] .faq-icon { transform: rotate(45deg); }
+
+    details p {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    /* CTA Final */
+    .cta-box {
+      background: linear-gradient(135deg, #5d97cc 0%, #2d5d8a 100%);
+      color: #fff;
+      border-radius: 24px;
+      padding: 48px 32px;
+      text-align: center;
+      box-shadow: var(--shadow-md);
+    }
+
+    .cta-box h2 {
+      font-size: clamp(1.9rem, 3.2vw, 2.5rem);
+      margin-bottom: 12px;
+    }
+
+    .cta-box p {
+      color: rgba(255, 255, 255, 0.86);
+      max-width: 56ch;
+      margin: 0 auto 26px;
+    }
+
+    .btn-light {
+      background: #fff;
+      color: var(--accent-dark);
+    }
+
+    .btn-light:hover { background: var(--surface-soft); }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      border-color: rgba(255, 255, 255, 0.28);
+    }
+
+    .btn-ghost:hover { background: rgba(255, 255, 255, 0.2); }
+
+    /* Reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(16px);
+      transition: opacity 0.55s ease, transform 0.55s ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Floating WhatsApp */
+    .wa-float {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 50;
+      background: #25d366;
+      color: #fff;
+      padding: 13px 20px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      box-shadow: 0 10px 26px rgba(37, 211, 102, 0.35);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: transform 0.18s ease;
+    }
+
+    .wa-float:hover { transform: translateY(-2px) scale(1.02); }
+
+    footer {
+      padding: 28px 0 48px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .profile-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 10px 18px 10px 10px;
+      border-radius: 999px;
+      margin-bottom: 22px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .profile-chip img {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent-soft);
+      flex-shrink: 0;
+    }
+
+    .profile-chip-info strong {
+      display: block;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .profile-chip-info a {
+      font-size: 0.82rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .profile-chip-info a:hover { text-decoration: underline; }
+
+    @media (max-width: 880px) {
+      .hero-grid, .tests-layout { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .hero { padding: 44px 0 42px; }
+      .test-meta { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <strong>Ana Paula Hort</strong>
+        <span>Psicóloga & Psicanalista • CRP 08/44722</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#instrumentos">Testes (WISC, WAIS)</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="https://www.instagram.com/anapaulahort.psi/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn btn-primary" href="#agendar">Agendar</a>
+      </nav>
+    </div>
+    <div class="scroll-progress" id="scroll-progress"></div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="profile-chip">
+            <img src="ana-paula.jpg" alt="Foto de Ana Paula Hort, Psicóloga e Psicanalista" />
+            <div class="profile-chip-info">
+              <strong>Ana Paula Hort Candido • CRP 08/44722</strong>
+              <a href="https://www.instagram.com/anapaulahort.psi/" target="_blank" rel="noopener">Instagram @anapaulahort.psi ↗</a>
+            </div>
+          </div>
+          <span class="pill">
+            <span class="pill-dot"></span>
+            Londrina/PR (Presencial) • Online para Brasil e Exterior
+          </span>
+          <h1>Avaliação Psicológica e <em>Psicanálise</em> para Adolescentes e Adultos</h1>
+          <p class="hero-lead">
+            Atendimento ético, acolhedor e técnico em todas as regiões de Londrina/PR e
+            por videochamada para brasileiros no Brasil e no exterior (com facilidade de pagamento via Wise).
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#agendar">Montar meu agendamento</a>
+            <a class="btn btn-outline" href="#instrumentos">Conhecer os testes</a>
+          </div>
+
+          <div class="trust-row">
+            <div class="trust-item"><strong>CRP 08/44722</strong> • SPP/PR 2020</div>
+            <div class="trust-item"><strong>Público:</strong> Adolescentes e Adultos</div>
+            <div class="trust-item"><strong>Testes:</strong> WISC, WAIS, BPA e FDT</div>
+          </div>
+        </div>
+
+        <!-- INTERACTIVE QUICK TRIAGE -->
+        <aside id="agendar" class="triage-card">
+          <div class="triage-head">
+            <h3>Agendamento rápido</h3>
+            <span class="triage-tag">3 passos</span>
+          </div>
+
+          <div class="triage-group">
+            <span class="triage-label">1. O que você procura?</span>
+            <div class="chip-group" data-group="servico">
+              <button type="button" class="chip active" data-value="Avaliação Psicológica">Avaliação Psicológica</button>
+              <button type="button" class="chip" data-value="Psicoterapia / Psicanálise">Psicoterapia / Psicanálise</button>
+            </div>
+          </div>
+
+          <div class="triage-group">
+            <span class="triage-label">2. Para quem é?</span>
+            <div class="chip-group" data-group="publico">
+              <button type="button" class="chip active" data-value="Adolescente">Adolescente</button>
+              <button type="button" class="chip" data-value="Adulto">Adulto</button>
+            </div>
+          </div>
+
+          <div class="triage-group">
+            <span class="triage-label">3. Modalidade</span>
+            <div class="chip-group" data-group="modalidade">
+              <button type="button" class="chip active" data-value="Presencial em Londrina/PR">Presencial (Londrina)</button>
+              <button type="button" class="chip" data-value="Online (Brasil)">Online (Brasil)</button>
+              <button type="button" class="chip" data-value="Online (Exterior - Wise)">Exterior (Wise)</button>
+            </div>
+          </div>
+
+          <div class="triage-preview" id="triage-preview"></div>
+
+          <a id="triage-cta" class="btn btn-primary" style="width: 100%;" href="#">
+            Enviar no WhatsApp e consultar horários
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES SWITCHER -->
+    <section id="servicos" class="section-soft reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Como posso ajudar</span>
+          <h2>Escolha o atendimento ideal para o seu momento</h2>
+          <p>Alterne abaixo entre Avaliação Psicológica e Psicoterapia para ver como funciona cada processo.</p>
+        </div>
+
+        <div class="switcher" role="tablist" id="service-switcher">
+          <div class="switch-pill" id="switch-pill"></div>
+          <button type="button" class="switch-btn active" data-tab="tab-avaliacao">Avaliação Psicológica</button>
+          <button type="button" class="switch-btn" data-tab="tab-psicoterapia">Psicoterapia & Psicanálise</button>
+        </div>
+
+        <div id="tab-avaliacao" class="panel active">
+          <div class="cards">
+            <article class="card">
+              <h3>Demandas Médicas e Escolares</h3>
+              <p>Investigação psicológica cuidadosa para encaminhamentos de psiquiatras, neurologistas, escolas ou busca própria em adolescentes e adultos.</p>
+            </article>
+            <article class="card">
+              <h3>Instrumentos Validados</h3>
+              <p>Uso criterioso de escalas e testes padronizados pelo CFP/SATEPSI — como WISC, WAIS, BPA e FDT — integrados à escuta clínica.</p>
+            </article>
+            <article class="card">
+              <h3>Devolutiva Clara e Laudo</h3>
+              <p>Entrega de documento técnico completo e sessão de devolutiva explicando resultados e próximos passos de forma acessível.</p>
+            </article>
+          </div>
+
+          <div class="steps">
+            <div class="step">
+              <span class="step-num">1</span>
+              <h3>Entrevista Inicial</h3>
+              <p>Anamnese para compreender a queixa, histórico e definir quais instrumentos serão usados.</p>
+            </div>
+            <div class="step">
+              <span class="step-num">2</span>
+              <h3>Sessões de Aplicação</h3>
+              <p>Encontros presenciais em Londrina/PR ou online, conforme indicação clínica e protocolo.</p>
+            </div>
+            <div class="step">
+              <span class="step-num">3</span>
+              <h3>Análise Integrada</h3>
+              <p>Correção técnica dos testes somada à observação clínica e contexto de vida.</p>
+            </div>
+            <div class="step">
+              <span class="step-num">4</span>
+              <h3>Devolutiva e Laudo</h3>
+              <p>Retorno detalhado dos achados e entrega do laudo psicológico.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-psicoterapia" class="panel">
+          <div class="cards">
+            <article class="card">
+              <h3>Limites e Relacionamentos</h3>
+              <p>Um espaço seguro para elaborar dificuldades em dizer não, sobrecarga emocional e relações afetivas ou familiares.</p>
+            </article>
+            <article class="card">
+              <h3>Escolhas e Repetições</h3>
+              <p>Escuta psicanalítica para compreender padrões que se repetem, angústias, decisões profissionais e autoconhecimento.</p>
+            </article>
+            <article class="card">
+              <h3>Londrina, Brasil e Exterior</h3>
+              <p>Atendimento presencial em Londrina/PR ou online para qualquer cidade e brasileiros fora do país (pagamento via Wise).</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE INSTRUMENTS EXPLORER -->
+    <section id="instrumentos" class="reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Instrumentos Psicológicos</span>
+          <h2>Testes aplicados na Avaliação Psicológica</h2>
+          <p>Clique em cada instrumento para entender de forma simples para quem ele é indicado e o que ajuda a investigar.</p>
+        </div>
+
+        <div class="tests-layout">
+          <div class="test-tabs">
+            <button type="button" class="test-tab active" data-test="wisc">
+              <div>
+                <strong>WISC</strong>
+                <span>Escala Wechsler • Adolescentes</span>
+              </div>
+              <span>→</span>
+            </button>
+            <button type="button" class="test-tab" data-test="wais">
+              <div>
+                <strong>WAIS</strong>
+                <span>Escala Wechsler • Adolescentes e Adultos</span>
+              </div>
+              <span>→</span>
+            </button>
+            <button type="button" class="test-tab" data-test="bpa">
+              <div>
+                <strong>BPA</strong>
+                <span>Bateria Psicológica para Avaliação da Atenção</span>
+              </div>
+              <span>→</span>
+            </button>
+            <button type="button" class="test-tab" data-test="fdt">
+              <div>
+                <strong>FDT</strong>
+                <span>Teste dos Cinco Dígitos • Funções Executivas</span>
+              </div>
+              <span>→</span>
+            </button>
+          </div>
+
+          <div class="test-detail" id="test-detail">
+            <div>
+              <h3 id="td-title">WISC — Escala Wechsler de Inteligência</h3>
+              <p id="td-desc"></p>
+            </div>
+            <div class="test-meta">
+              <div class="meta-box">
+                <small>Faixa etária</small>
+                <strong id="td-age"></strong>
+              </div>
+              <div class="meta-box">
+                <small>O que ajuda a investigar</small>
+                <strong id="td-focus"></strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="duvidas" class="section-soft reveal">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Perguntas Frequentes</span>
+          <h2>Tire suas principais dúvidas</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Preciso de encaminhamento médico para fazer avaliação psicológica? <span class="faq-icon">+</span></summary>
+            <p>Não necessariamente. Muitas pessoas chegam por encaminhamento de psiquiatra, neurologista ou escola, mas também é possível agendar por iniciativa própria.</p>
+          </details>
+          <details>
+            <summary>Moro fora do Brasil ou em outra cidade: posso fazer online e pagar pela Wise? <span class="faq-icon">+</span></summary>
+            <p>Sim! Atendo brasileiros no exterior e em todo o Brasil na modalidade online, com opção de pagamento internacional pela Wise. Na avaliação psicológica, definimos na entrevista inicial a modalidade adequada para cada instrumento.</p>
+          </details>
+          <details>
+            <summary>Você atende crianças pequenas? <span class="faq-icon">+</span></summary>
+            <p>Meu atendimento clínico e de avaliação psicológica é voltado para <strong>adolescentes e adultos</strong>.</p>
+          </details>
+          <details>
+            <summary>Em quais regiões de Londrina você atende presencialmente? <span class="faq-icon">+</span></summary>
+            <p>Atendo presencialmente pacientes de todas as regiões de Londrina/PR e cidades vizinhas. Ao chamar no WhatsApp, passo a localização exata do consultório e os horários disponíveis.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="reveal">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Pronto para dar o primeiro passo?</h2>
+          <p>
+            Fale diretamente pelo WhatsApp para consultar agenda em Londrina/PR ou atendimento online
+            no Brasil e no exterior.
+          </p>
+          <div class="hero-actions" style="justify-content: center; margin-bottom: 0;">
+            <a id="final-wa" class="btn btn-light" href="#">Conversar no WhatsApp</a>
+            <a class="btn btn-ghost" href="https://www.instagram.com/anapaulahort.psi/" target="_blank" rel="noopener">Instagram @anapaulahort.psi</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Ana Paula Hort Candido • Psicóloga & Psicanalista • CRP 08/44722 • SPP/PR 2020 • Londrina/PR e Online</p>
+    </div>
+  </footer>
+
+  <a id="float-wa" class="wa-float" href="#">WhatsApp</a>
+
+  <script>
+    // IMPORTANTE: Substitua pelo número real do WhatsApp Business (apenas dígitos, com 55 + DDD)
+    const WHATSAPP_NUMBER = "5543999999999";
+
+    function buildWaLink(message) {
+      return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+    }
+
+    // 1. Triagem interativa no Hero
+    const state = {
+      servico: "Avaliação Psicológica",
+      publico: "Adolescente",
+      modalidade: "Presencial em Londrina/PR"
+    };
+
+    const previewEl = document.getElementById("triage-preview");
+    const ctaEl = document.getElementById("triage-cta");
+
+    function updateTriage() {
+      const msg = `Olá, Ana Paula! Gostaria de informações sobre ${state.servico} para ${state.publico}, na modalidade ${state.modalidade}.`;
+      previewEl.innerHTML = `<strong>Resumo do pedido:</strong> ${state.servico} • ${state.publico} • ${state.modalidade}`;
+      ctaEl.href = buildWaLink(msg);
+      ctaEl.target = "_blank";
+      ctaEl.rel = "noopener";
+    }
+
+    document.querySelectorAll(".chip-group").forEach((group) => {
+      const key = group.getAttribute("data-group");
+      group.querySelectorAll(".chip").forEach((chip) => {
+        chip.addEventListener("click", () => {
+          group.querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+          chip.classList.add("active");
+          state[key] = chip.getAttribute("data-value");
+          updateTriage();
+        });
+      });
+    });
+
+    updateTriage();
+
+    // 2. Alternador de Serviços com indicador elástico
+    const switchPill = document.getElementById("switch-pill");
+    function movePill(btn) {
+      if (!switchPill || !btn) return;
+      switchPill.style.width = `${btn.offsetWidth}px`;
+      switchPill.style.transform = `translateX(${btn.offsetLeft - 5}px)`;
+    }
+
+    const activeSwitch = document.querySelector(".switch-btn.active");
+    if (activeSwitch) movePill(activeSwitch);
+    window.addEventListener("resize", () => movePill(document.querySelector(".switch-btn.active")));
+
+    document.querySelectorAll(".switch-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const target = btn.getAttribute("data-tab");
+        document.querySelectorAll(".switch-btn").forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(".panel").forEach((p) => p.classList.remove("active"));
+        btn.classList.add("active");
+        document.getElementById(target).classList.add("active");
+        movePill(btn);
+      });
+    });
+
+    // 3. Explorador interativo de testes
+    const TESTS = {
+      wisc: {
+        title: "WISC — Escala Wechsler de Inteligência",
+        desc: "Instrumento referência para avaliar o funcionamento intelectual e cognitivo de adolescentes. Analisa compreensão verbal, raciocínio lógico, memória operacional e velocidade de processamento, auxiliando em demandas escolares e clínicas.",
+        age: "Adolescentes (até 16 anos e 11 meses)",
+        focus: "Capacidades cognitivas, aprendizagem, raciocínio e atenção"
+      },
+      wais: {
+        title: "WAIS — Escala Wechsler de Inteligência para Adultos",
+        desc: "Versão voltada para adolescentes mais velhos e adultos. Oferece um perfil detalhado das habilidades cognitivas, pontos fortes e dificuldades, sendo muito utilizado em investigações clínicas amplas.",
+        age: "A partir de 16 anos e Adultos",
+        focus: "Perfil cognitivo, memória operacional, raciocínio verbal e lógico"
+      },
+      bpa: {
+        title: "BPA — Bateria Psicológica para Avaliação da Atenção",
+        desc: "Avalia de forma objetiva diferentes tipos de atenção: concentrada (manter o foco), dividida (lidar com mais de um estímulo) e alternada (mudar o foco entre tarefas).",
+        age: "Adolescentes e Adultos",
+        focus: "Atenção concentrada, dividida e alternada"
+      },
+      fdt: {
+        title: "FDT — Teste dos Cinco Dígitos",
+        desc: "Avalia velocidade de processamento cognitivo e funções executivas importantes para o dia a dia, como controle inibitório (frear respostas automáticas) e flexibilidade cognitiva.",
+        age: "Adolescentes e Adultos",
+        focus: "Velocidade de processamento, controle inibitório e flexibilidade"
+      }
+    };
+
+    const tdTitle = document.getElementById("td-title");
+    const tdDesc = document.getElementById("td-desc");
+    const tdAge = document.getElementById("td-age");
+    const tdFocus = document.getElementById("td-focus");
+
+    function selectTest(key) {
+      const t = TESTS[key];
+      tdTitle.textContent = t.title;
+      tdDesc.textContent = t.desc;
+      tdAge.textContent = t.age;
+      tdFocus.textContent = t.focus;
+    }
+
+    document.querySelectorAll(".test-tab").forEach((tab) => {
+      tab.addEventListener("click", () => {
+        document.querySelectorAll(".test-tab").forEach((t) => t.classList.remove("active"));
+        tab.classList.add("active");
+        selectTest(tab.getAttribute("data-test"));
+      });
+    });
+
+    selectTest("wisc");
+
+    // 4. Botões gerais de WhatsApp
+    const generalMsg = "Olá, Ana Paula! Vim pelo site e gostaria de informações sobre agendamento.";
+    ["final-wa", "float-wa"].forEach((id) => {
+      const el = document.getElementById(id);
+      el.href = buildWaLink(generalMsg);
+      el.target = "_blank";
+      el.rel = "noopener";
+    });
+
+    // 5. Animação suave ao rolar + etapas progressivas
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+    const stepsEl = document.querySelector(".steps");
+    if (stepsEl) {
+      const stepsObs = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            stepsEl.classList.add("in-view");
+            stepsObs.unobserve(stepsEl);
+          }
+        });
+      }, { threshold: 0.25 });
+      stepsObs.observe(stepsEl);
+    }
+
+    // 6. Barra de progresso de leitura no topo
+    const scrollProgress = document.getElementById("scroll-progress");
+    window.addEventListener("scroll", () => {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = docHeight > 0 ? Math.min(100, (window.scrollY / docHeight) * 100) : 0;
+      if (scrollProgress) scrollProgress.style.width = `${pct}%`;
+    }, { passive: true });
+
+    // 7. Brilho sutil nos cards acompanhando o mouse
+    document.querySelectorAll(".card").forEach((card) => {
+      card.addEventListener("mousemove", (e) => {
+        const rect = card.getBoundingClientRect();
+        card.style.setProperty("--mx", `${e.clientX - rect.left}px`);
+        card.style.setProperty("--my", `${e.clientY - rect.top}px`);
+      });
+    });
+
+    // 8. Destaque visual ao clicar em "Montar meu agendamento" / "Agendar"
+    const triageCard = document.getElementById("agendar");
+    document.querySelectorAll('a[href="#agendar"]').forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (!triageCard) return;
+        triageCard.scrollIntoView({ behavior: "smooth", block: "center" });
+        triageCard.classList.remove("highlight");
+        void triageCard.offsetWidth;
+        triageCard.classList.add("highlight");
+        setTimeout(() => triageCard.classList.remove("highlight"), 1200);
+      });
+    });
+  </script>
+</body>
+</html>
