@@ -1,0 +1,4 @@
+gerador-posts/
+*.md
+.env
+*.env
