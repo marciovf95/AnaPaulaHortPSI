@@ -796,8 +796,15 @@
 
     .profile-chip-info a:hover { text-decoration: underline; }
 
+    .about-card {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 28px;
+      align-items: center;
+    }
+
     @media (max-width: 880px) {
-      .hero-grid, .tests-layout { grid-template-columns: 1fr; }
+      .hero-grid, .tests-layout, .about-card { grid-template-columns: 1fr; }
       .nav-links { display: none; }
       .hero { padding: 44px 0 42px; }
       .test-meta { grid-template-columns: 1fr; }
@@ -1029,6 +1036,23 @@
                 <strong id="td-focus"></strong>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE A PROFISSIONAL (SEO + CONFIANÇA) -->
+    <section id="sobre" class="reveal">
+      <div class="container">
+        <div class="card about-card">
+          <img src="ana-paula.jpg" alt="Ana Paula Hort Candido — Psicóloga e Psicanalista em Londrina/PR" style="width: 112px; height: 112px; border-radius: 50%; object-fit: cover; border: 3px solid var(--accent-soft);" />
+          <div>
+            <span class="eyebrow">Sobre a Profissional</span>
+            <h2 style="font-size: clamp(1.6rem, 2.6vw, 2.1rem); margin-bottom: 10px;">Ana Paula Hort Candido</h2>
+            <p style="color: var(--muted); max-width: 72ch;">
+              Psicóloga (<strong>CRP 08/44722</strong>) e Psicanalista (<strong>SPP/PR 2020</strong>), com atuação em <strong>Londrina/PR</strong> e atendimento online para todo o Brasil e brasileiros no exterior.
+              Realizo <strong>Avaliação Psicológica</strong> para crianças, adolescentes e adultos — utilizando instrumentos validados como <strong>WISC, WAIS, BPA e FDT</strong> — e <strong>Psicoterapia de orientação psicanalítica</strong> para adolescentes e adultos.
+            </p>
           </div>
         </div>
       </div>
